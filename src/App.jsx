@@ -7,6 +7,9 @@ import List from './components/List.jsx'
 //& importação de icones
 import {FaHeart} from 'react-icons/fa'
 
+//$ importação de imgs
+import misterBoombastic from './assets/mister-boombastic.jpeg'
+
 function App() {
   
 
@@ -17,6 +20,7 @@ function App() {
       <div className="card">
         <Teste/>
         <List/>
+        <img src={misterBoombastic} alt="mister-boombastic" className="mister-boombastic"/>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more<FaHeart/>
