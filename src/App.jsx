@@ -8,7 +8,7 @@ import List from './components/List.jsx'
 import {FaHeart} from 'react-icons/fa'
 
 //$ importação de imgs
-import misterBoombastic from './assets/mister-boombastic.jpeg'
+import misterBoombastic from './assets/pictures/mister-boombastic.jpeg'
 
 function App() {
   
